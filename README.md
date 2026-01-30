@@ -1,13 +1,9 @@
 # RAG API CI/CD Pipeline with Docker, Kubernetes, and GitHub Actions
 
-## CI/CD Architecture
-
-<h2 align="center">CI/CD Architecture</h2>
-
 <p align="center">
-  <img src="images/ci-cd-architecture.png" alt="CI/CD Architecture" width="750"/>
+  <img src="RAG-API.png" alt="CI/CD Architecture" width="750"/>
 </p>
-****
+
 
 This project demonstrates a complete end-to-end CI/CD pipeline for a Retrieval-Augmented Generation (RAG) API.  
 The pipeline automates testing, containerization, and validation of an AI-powered API using modern DevOps practices.
@@ -68,6 +64,10 @@ With this pipeline in place:
   - API startup in mock mode
   - Automated semantic tests
 
+  <p align="center">
+  <img src="GitHub Actions.png" alt="GitHub Actions" width="750"/>
+</p>
+
 ---
 
 ## 🏗️ Containerization & Deployment
@@ -76,6 +76,10 @@ With this pipeline in place:
 - Containerized API runs identically across environments
 - Kubernetes used to deploy and manage containers
 - Enables scalability and production-style deployment
+
+  <p align="center">
+  <img src="ci-cd-architecture.png" alt="Kubernetes Deployment" width="750"/>
+</p>
 
 ---
 
